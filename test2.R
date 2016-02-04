@@ -46,8 +46,8 @@ fractal_gen <- function( x , R1 , C1 , R2 , C2 , n )
 
 # constants for generating symmetric dragon fractal
 dragon_R <- (sqrt(2) / 2) * exp( complex( r = 0 , i = pi/4 ) )
-dragon_C1 = complex( r = 0.5 , i = -0.5 )
-dragon_C2 = complex( r = -0.5 , i = 0.5 )
+dragon_C1 <- complex( r = 0.5 , i = -0.5 )
+dragon_C2 <- complex( r = -0.5 , i = 0.5 )
 
 dragon_fractal <- function( n )
 {
