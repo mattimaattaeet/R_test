@@ -13,7 +13,7 @@ ui <- fluidPage( sliderInput( inputId = "angle" ,
 			sliderInput( inputId = "iterations" ,
 			label = "Number of iterations", 
 			value = 10 , min = 1, max = 20 ) ,
-			plotOutput( outputId = "fractal" , height="512" , width="512" ) );
+			plotOutput( outputId = "fractal" , height="512" , width="512" ) )
 
 server <- function( input , output )
 {
